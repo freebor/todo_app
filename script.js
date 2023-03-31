@@ -109,6 +109,6 @@ window.addEventListener('load', ()=>{
         })
     });
     deleteAll.addEventListener('click', () =>{
-        task_list.removeChild(list_el)
+        list_el.replaceChildren();
     })
 });
